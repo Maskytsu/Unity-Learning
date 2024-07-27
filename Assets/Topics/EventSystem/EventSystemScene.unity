@@ -241,6 +241,39 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 1
+--- !u!1 &800422781 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5820304786424020364, guid: 2ea4b13fff6d2a84faeb9224aabda507,
+    type: 3}
+  m_PrefabInstance: {fileID: 1461562327494223260}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &800422782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 800422781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c10be3d263653b943b086aad3fbc6142, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnUnityEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2087759630}
+        m_TargetAssemblyTypeName: EventsSubscriber, Assembly-CSharp
+        m_MethodName: TestingUnityEvent
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1286452338
 GameObject:
   m_ObjectHideFlags: 0
@@ -359,6 +392,7 @@ GameObject:
   - component: {fileID: 2087759628}
   - component: {fileID: 2087759627}
   - component: {fileID: 2087759626}
+  - component: {fileID: 2087759630}
   m_Layer: 6
   m_Name: Cube
   m_TagString: Untagged
@@ -452,6 +486,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2087759630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2087759625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36eeb00b2865ab445905066449c9c7dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _eventsPublisher: {fileID: 800422782}
 --- !u!1001 &1461562327494223260
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -518,7 +565,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5820304786424020364, guid: 2ea4b13fff6d2a84faeb9224aabda507,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 800422782}
   m_SourcePrefab: {fileID: 100100000, guid: 2ea4b13fff6d2a84faeb9224aabda507, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
