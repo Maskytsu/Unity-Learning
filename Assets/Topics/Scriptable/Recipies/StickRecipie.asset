@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25c82d6ee8ce0394bbe4bd6391f38313, type: 3}
+  m_Name: StickRecipie
+  m_EditorClassIdentifier: 
+  Result: {fileID: 11400000, guid: 865ac41ade0ebc44db79aeb470ef9ea1, type: 2}
+  Item_00: {fileID: 0}
+  Item_10: {fileID: 0}
+  Item_20: {fileID: 0}
+  Item_01: {fileID: 0}
+  Item_11: {fileID: 11400000, guid: 69a2a0b705f930945bcc48134fe710fe, type: 2}
+  Item_21: {fileID: 11400000, guid: 69a2a0b705f930945bcc48134fe710fe, type: 2}
+  Item_02: {fileID: 0}
+  Item_12: {fileID: 0}
+  Item_22: {fileID: 0}
